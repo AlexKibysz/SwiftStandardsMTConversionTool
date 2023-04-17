@@ -53,7 +53,7 @@
 
                 string[] lines = File.ReadAllLines(rutaArchivoNuevo);
                 contenidoOneLineFinal = string.Join("", lines).Replace("\r\n", "");
-                File.WriteAllText(RutaOneLineFinal, contenidoOneLine);
+                File.WriteAllText(RutaOneLineFinal, contenidoOneLineFinal);
             }
 
         }
