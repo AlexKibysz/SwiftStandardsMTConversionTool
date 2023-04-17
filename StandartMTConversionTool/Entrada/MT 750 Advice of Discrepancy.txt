@@ -1,0 +1,10 @@
+M	20	Sender's Reference	16x	1
+M	21	Related Reference	16x	2
+M	32B	Principal Amount	3!a15d	3
+O	33B	Additional Amount	3!a15d	4
+O	71D	Charges to be Deducted	6*35z	5
+O	73A	Charges to be Added	6*35z	6
+O	34B	Total Amount to be Paid	3!a15d	7
+O	57a	Account With Bank	A, B, or D	8
+O	72Z	Sender to Receiver Information	6*35z	9
+M	77J	Discrepancies	70*50z	10

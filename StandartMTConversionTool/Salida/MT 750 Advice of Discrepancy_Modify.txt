@@ -1,0 +1,32 @@
+,,MT 750 Advice of Discrepancy                                   
+,,                COMO SE ARMA EL MT POR FFS                     
+,,SE DEBEN ELIMINAR LAS COMAS QUE FIGURAN AL PRINCIPIO DE CADA   
+,,CAMPO DESTINADO A LA GENERACION DE LOS TAGS EJEMPLO:           
+,,:SRI: O :20: Y COMPLETAR EN LA MISMA LINEA LUEGO DE LOS DOS    
+,,PUNTOS CON LA INFORMACION NECESARIA RESPETANDO EL FORMATO DE   
+,,CADA TAG SEGUN LO INDICA SWIFT. EJEMPLO :20:BKTD-I002137000    
+,,SI DEBEN ESCRIBIR MAS DE UNA LINEA, ESCIBIR DEBAJO DEL TAG     
+,,CORRESPONDIENTE, UNA LINEA DEBAJO DE LA OTRA RESPETANDO LA     
+,,CANTIDAD DE CARACTERES DEL TAG Y NO DEBE EMPEZAR CON COMAS     
+,,EN EL CAMPO :SRI: DEBE IR LA DIRECCION BIC DEL BANCO DE        
+,,DESTINATARIO DEL MENSAJE.                                      
+,,:TAG20: Sender's Reference(M)(16x)                             
+,:20:                                                            
+,,:TAG21: Related Reference(M)(16x)                              
+,:21:                                                            
+,,:TAG32B: Principal Amount(M)(3!a15d)                           
+,:32B:                                                           
+,,:TAG33B: Additional Amount(O)(3!a15d)                          
+,:33B:                                                           
+,,:TAG71D: Charges to be Deducted(O)(6*35z)                      
+,:71D:                                                           
+,,:TAG73A: Charges to be Added(O)(6*35z)                         
+,:73A:                                                           
+,,:TAG34B: Total Amount to be Paid(O)(3!a15d)                    
+,:34B:                                                           
+,,:TAG57a: Account With Bank(O)(A, B, or D)                      
+,:57a:                                                           
+,,:TAG72Z: Sender to Receiver Information(O)(6*35z)              
+,:72Z:                                                           
+,,:TAG77J: Discrepancies(M)(70*50z)                              
+,:77J:                                                           

@@ -1,0 +1,35 @@
+,,MT 747 Amendment to an Authorisation to Reimburse              
+,,                COMO SE ARMA EL MT POR FFS                     
+,,SE DEBEN ELIMINAR LAS COMAS QUE FIGURAN AL PRINCIPIO DE CADA   
+,,CAMPO DESTINADO A LA GENERACION DE LOS TAGS EJEMPLO:           
+,,:SRI: O :20: Y COMPLETAR EN LA MISMA LINEA LUEGO DE LOS DOS    
+,,PUNTOS CON LA INFORMACION NECESARIA RESPETANDO EL FORMATO DE   
+,,CADA TAG SEGUN LO INDICA SWIFT. EJEMPLO :20:BKTD-I002137000    
+,,SI DEBEN ESCRIBIR MAS DE UNA LINEA, ESCIBIR DEBAJO DEL TAG     
+,,CORRESPONDIENTE, UNA LINEA DEBAJO DE LA OTRA RESPETANDO LA     
+,,CANTIDAD DE CARACTERES DEL TAG Y NO DEBE EMPEZAR CON COMAS     
+,,EN EL CAMPO :SRI: DEBE IR LA DIRECCION BIC DEL BANCO DE        
+,,DESTINATARIO DEL MENSAJE.                                      
+,,:TAG20: Documentary Credit Number(M)(16x)                      
+,:20:                                                            
+,,:TAG21: Reimbursing Bank's Reference(O)(16x)                   
+,:21:                                                            
+,,:TAG30: Date of the Original Authorisation to Reimburse(M)(6!n)
+,:30:                                                            
+,,:TAG31E: New Date of Expiry(O)(6!n)                            
+,:31E:                                                           
+,,:TAG32B: Increase of Documentary Credit Amount(O)(3!a15d)      
+,:32B:                                                           
+,,:TAG33B: Decrease of Documentary Credit Amount(O)(3!a15d)      
+,:33B:                                                           
+,,:TAG34B: New Documentary Credit Amount After Amendment(O)(3!a15
+,,)                                                              
+,:34B:                                                           
+,,:TAG39A: Percentage Credit Amount Tolerance(O)(2n/2n)          
+,:39A:                                                           
+,,:TAG39C: Additional Amounts Covered(O)(4*35x)                  
+,:39C:                                                           
+,,:TAG72Z: Sender to Receiver Information(O)(6*35z)              
+,:72Z:                                                           
+,,:TAG77: Narrative(O)(20*35z)                                   
+,:77:                                                            

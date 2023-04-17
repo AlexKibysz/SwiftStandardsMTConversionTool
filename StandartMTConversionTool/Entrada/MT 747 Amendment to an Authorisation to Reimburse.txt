@@ -1,0 +1,11 @@
+M	20	Documentary Credit Number	16x	1
+O	21	Reimbursing Bank's Reference	16x	2
+M	30	Date of the Original Authorisation to Reimburse	6!n	3
+O	31E	New Date of Expiry	6!n	4
+O	32B	Increase of Documentary Credit Amount	3!a15d	5
+O	33B	Decrease of Documentary Credit Amount	3!a15d	6
+O	34B	New Documentary Credit Amount After Amendment	3!a15d	7
+O	39A	Percentage Credit Amount Tolerance	2n/2n	8
+O	39C	Additional Amounts Covered	4*35x	9
+O	72Z	Sender to Receiver Information	6*35z	10
+O	77	Narrative	20*35z	11
