@@ -33,6 +33,7 @@
                 ContenidoArchivoNuevo += miContenido;
                 ContenidoArchivoNuevo += "\n";
                 ContenidoArchivoNuevo += instrucciones;
+                ContenidoArchivoNuevo += "\n,,:SRI: BIC RECEIVER BANK (11X)                                  \r\n,:SRI:                                                           ";
                 string ContenidoModificado = modificarContenido(contenidoArchivoOriginal, ContenidoArchivoNuevo);
 
                 //verificacion de formato
