@@ -1,5 +1,5 @@
 
-# Swift Standart MT Convert Tool
+# Swift standards MT Convert Tool
 
 A C# script that transforms a .txt file from MT format to the required .txt format using specific instructions for building the message according to FFS (Financial Information eXchange (FIX) for Foreign Exchange). These instructions involve removing the commas at the beginning of each field, completing the tag information in the same line after the colon, and respecting the format of each tag according to SWIFT standards. The resulting content is stored in two different folders: the OneLine folder contains the file in a single-line format, while the Salida folder contains the file in the required format with certain conditions.
 
